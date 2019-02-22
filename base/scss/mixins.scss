@@ -1,0 +1,168 @@
+/*
+ * Inverted Colors
+ */
+@mixin blackTextWhiteBg {
+  background: #fff;
+  color: #000;
+
+  [class~='inverted'] & {
+    background: #000;
+    color: #fff;
+  }
+}
+
+@mixin whiteTextBlackBg {
+  background: #000;
+  color: #fff;
+
+  [class~='inverted'] & {
+    background: #fff;
+    color: #000;
+  }
+}
+
+@mixin blackBackground {
+  background-color: #000;
+
+  [class~='inverted'] & {
+    background-color: #fff;
+  }
+}
+
+@mixin whiteBackground {
+  background-color: #fff;
+
+  [class~='inverted'] & {
+    background-color: #000;
+  }
+}
+
+@mixin blackColor {
+  color: #000;
+
+  [class~='inverted'] & {
+    color: #fff;
+  }
+}
+
+@mixin whiteColor {
+  color: #fff;
+
+  [class~='inverted'] & {
+    color: #000;
+  }
+}
+
+@mixin offWhiteBackground {
+  background-color: #f1f1f2;
+
+  [class~='inverted'] & {
+    background-color: darken(#f1f1f2, 75%);
+  }
+}
+
+@mixin blackBorder {
+  border-color: #000;
+
+  [class~='inverted'] & {
+    border-color: #fff;
+  }
+}
+
+@mixin whiteBorder {
+  border-color: #fff;
+
+  [class~='inverted'] & {
+    border-color: #000;
+  }
+}
+
+/* Mixin to prefix several properties at once
+ * @author Hugo Giraudel
+ * Shouldn't need after autoprefixer
+ * @param {Map} $declarations - Declarations to prefix
+ * @param {List} $prefixes (()) - List of prefixes to print
+ * usage: @include prefix((border-radius: 5px), webkit moz);
+ */
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    /* Output standard non-prefixed declaration */
+    #{$property}: $value;
+  }
+}
+
+@mixin clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin antialiased() { -webkit-font-smoothing: antialiased; }
+
+@mixin no-antialiased() { -webkit-font-smoothing: auto; }
+
+@mixin transition($args...) {
+  @include prefix((transition: $args), webkit moz ms o);
+}
+
+@mixin ease-in-out($time) {
+  @include transition(all $time ease-in-out);
+}
+
+/**
+ * calculates size relative to document root with px fallback
+ */
+@function calculaterem($size) {
+  $remSize: $size / 16px;
+
+  @return $remSize * 1rem;
+}
+
+/**
+ * font-size mixin with fallback
+ */
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculaterem($size);
+}
+
+/**
+ * line-height mixin with fallback
+ */
+@mixin line-height($size) {
+  line-height: $size;
+  line-height: calculaterem($size);
+}
+
+/**
+ * Dynamic Media Queries
+ * Allow in-line media queries
+ * usage:
+ *  .selector { width: 100%;
+ *    @include respond(768px) { width: 30%; }
+ *    @include respond(768px, 'down') { width: 100%; }
+ *  }
+ */
+@mixin respond($breakpoint, $operator: 'up', $dimension: 'width') {
+  @if $operator == 'up' {
+    @media print, screen and (min-#{ $dimension }: $breakpoint) {
+      @content;
+    }
+  }
+
+  @else if $operator == 'down' {
+    @if unit( $breakpoint ) == 'px' {
+      $breakpoint: $breakpoint - 1;
+    }
+
+    @media screen and (max-#{ $dimension }: $breakpoint) {
+      @content;
+    }
+  }
+}

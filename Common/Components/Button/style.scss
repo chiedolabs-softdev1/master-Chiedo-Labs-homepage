@@ -1,0 +1,20 @@
+@import '~baseSass/variables.scss';
+@import '~baseSass/mixins.scss';
+
+button.button {
+  @include antialiased();
+
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: 0.8em;
+  box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
+  background-color: #b92c2c;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}

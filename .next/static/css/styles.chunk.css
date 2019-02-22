@@ -1,0 +1,65 @@
+/*
+ * Inverted Colors
+ */
+/* Mixin to prefix several properties at once
+ * @author Hugo Giraudel
+ * Shouldn't need after autoprefixer
+ * @param {Map} $declarations - Declarations to prefix
+ * @param {List} $prefixes (()) - List of prefixes to print
+ * usage: @include prefix((border-radius: 5px), webkit moz);
+ */
+/**
+ * calculates size relative to document root with px fallback
+ */
+/**
+ * font-size mixin with fallback
+ */
+/**
+ * line-height mixin with fallback
+ */
+/**
+ * Dynamic Media Queries
+ * Allow in-line media queries
+ * usage:
+ *  .selector { width: 100%;
+ *    @include respond(768px) { width: 30%; }
+ *    @include respond(768px, 'down') { width: 100%; }
+ *  }
+ */
+button._3aBJEmPf2LWj6mc5V62Bmu {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: 0.8em;
+  box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
+  background-color: #b92c2c;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
+
+
+button._2qENJ6cC0KaLubofBLnp9k {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: 0.8em;
+  box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
+  background-color: #b92c2c;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
+
+button._2qENJ6cC0KaLubofBLnp9k:hover {
+  background-color: #d44457; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

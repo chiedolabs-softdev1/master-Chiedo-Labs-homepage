@@ -1,0 +1,71 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  color: #000;
+
+  &[class~='inverted'] {
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+a,
+p,
+li,
+div,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $defaultFont;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: 0.83em; }
+h6 { font-size: 0.75em; }
+
+img,
+video,
+iframe { max-width: 100%; }
+
+/*
+ * Bootstrap Overrides
+ */
+ol,
+ul {
+  list-style: none;
+}
+
+body { /* stylelint-disable-line */
+  dl,
+  ol,
+  ul { margin-bottom: 0; }
+}
+
+.colorBlue { color: $blue; }
+.colorOffWhite { color: $offWhite; }
+.backgroundBlue { background-color: $blue; }
+.backgroundOffWhite { background-color: $offWhite; }

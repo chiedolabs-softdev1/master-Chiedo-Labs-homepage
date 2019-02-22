@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "Base/*": [
+        "base/*"
+      ],
+      "baseSass/*": [
+        "base/scss/*"
+      ],
+      "Features/*": [
+        "features/*"
+      ],
+      "Common/*": [
+        "features/Common/*"
+      ],
+      "BTRedux/*": [
+        "redux/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
