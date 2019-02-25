@@ -1,0 +1,14 @@
+.C {
+  background: #333;
+  border-bottom: 3px #B92C2C solid;
+  font-family: "Open Sans", sans-serif;
+}
+
+.color {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+
+  &:hover {
+    border-color: red;
+  }
+}

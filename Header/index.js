@@ -1,10 +1,16 @@
 import Link from 'next/link'
+import ClassNames from 'classnames';
+import css from './style.scss';
 
 function Header() {
   return (
-    <div className="main-header">
+    <div className={ClassNames(css.main, css.center)}>
+        <div className=""> <img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/b-logo-white.png?ver=1.11" alt="Chiedo Labs Web Development Harrisonburg VA &amp; Charlottesville VA web design" />
+        </div>
     </div>
   )
 }
 
 export default Header
+
+
