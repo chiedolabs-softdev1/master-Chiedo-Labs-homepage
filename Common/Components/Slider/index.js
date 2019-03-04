@@ -2,41 +2,66 @@ import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 import css from './style.scss';
 
+import { Navbar, Nav, Container } from 'react-bootstrap'
 const Slider = () => (
+ <>
+ <div className={css.S}>
+        <Navbar className={css.C} expand="lg">
+       <div />
+       
+            <Navbar.Toggle className={css.gay}> <img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/mob-trig.png" alt="Nav Bar"/></Navbar.Toggle> 
+ 
+            {/* <a href="#" class="pull-left"><img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/mob-trig.png" alt="Nav Bar"></img></a>  */}
+            
+            <Navbar.Collapse>
 
-<div className={css.C}>
-  <div className="row">
-    <div className="col">
-    <div className="row pt-3 ml-3">
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}><a className={css.color} href="/">ABOUT US</a></span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}><a className={css.color} href="/">PORTFOLIO</a></span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}><a className={css.color} href="/">WHAT WE DO</a></span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}><a className={css.color} href="/">WHO WE SERVE</a></span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}><a className={css.color} href="/">CONTACT US</a></span>
-    </div>
-  </div>
-</div>
-</div>
-  
-    );
-    
-    export default Slider;
+            <Nav className={ClassNames("mr-auto")}>
+                <Nav.Link href="/">ABOUT US</Nav.Link>
+                <Nav.Link href="/">PORTFOLIO</Nav.Link>
+                <Nav.Link href="#whatWeDo">WHAT WE DO</Nav.Link>
+                <Nav.Link href="#whoWeServe">WHO WE SERVE</Nav.Link>
+                <Nav.Link href="/">CONTACT US</Nav.Link>
+                </Nav>
+                
+            </Navbar.Collapse>
+           
+        </Navbar>
+        </div>
 
+        <div className={css.hide}>
+        <div className="row justify-content-center py-5">
+        
+        <div className="row">
+            <h1 className={ClassNames("", css.callMain)}>YOUR NEW <br/> WEB DEVELOPERS</h1>
+            </div>
+            <div className="col">
+            <div className="row  justify-content-center">
+            <p>We’re a team of web developers passionate about building stable, maintainable<br/> 
+             software for tech startups and enterprise customers.</p>
+            </div>
+          
+            <div className="row  justify-content-center">
+           
+            <button className={css.btn}>Get a quote</button>
+           
+            </div>
+            </div>
+      
+        </div>
+        </div>
+        {/* <Container className={css.ourTeam}>
+            <h3 className={ClassNames(css.team, css.Whitetitle)}>Hire our team to:</h3>
+            <p className={ClassNames(css.team, css.buildAndMaintain)}>Build and maintain: <span>Web applications</span> <span>Web back-ends</span> <span>Web front-ends</span> <span>Custom websites</span></p>
+        </Container> */}
+      </>
+        )
 
-//     ABOUT US
-// PORTFOLIO
-// WHAT WE DO
-// WHO WE SERVE
-// CONTACT US
+export default Slider
 
-
-<nav id="main-menu" class="main-menu currently-page">
-    <div class="menu-header-menu-container"><ul id="menu-header-menu" class="menu"><li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="https://labs.chiedo.com/page/about/">About Us</a></li>
-<li id="menu-item-1852" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1852"><a href="/case-studies">Portfolio</a></li>
-<li id="menu-item-1722" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1722"><a href="https://labs.chiedo.com/#what-we-do">What We Do</a></li>
-<li id="menu-item-1721" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1721"><a href="https://labs.chiedo.com#who-we-serve">Who We Serve</a></li>
-<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="https://labs.chiedo.com/page/contact/">Contact Us</a></li>
-</ul></div>    <div class="clear"></div>
-</nav>
-
-
+    // </div>
+    // <div className={ClassNames("container", css.S)}>
+    // <div className="row pt-2 pr-3 justify-content-end">
+    //  <img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/mob-trig.png" alt="Nav Bar"/>
+    //  </div>
+    // </div>
+    // </div>

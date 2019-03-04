@@ -241,231 +241,184 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.scss */ "./Common/Components/Slider/style.scss");
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap */ "react-bootstrap");
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/softdev1/projects/Chiedo-Labs-homepage/Common/Components/Slider/index.js";
 
 
 
 
 
+
 var Slider = function Slider() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.C,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.S,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Navbar"], {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.C,
+    expand: "lg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row pt-3 ml-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color,
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "ABOUT US")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Navbar"].Toggle, {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.gay,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color,
-    href: "/",
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://labs.chiedo.com/wp-content/themes/chiedolabs/img/mob-trig.png",
+    alt: "Nav Bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "PORTFOLIO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Navbar"].Collapse, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"], {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("mr-auto"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"].Link, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
-  }, "WHAT WE DO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color,
+  }, "ABOUT US"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"].Link, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 20
     },
     __self: this
-  }, "WHO WE SERVE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
+  }, "PORTFOLIO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"].Link, {
+    href: "#whatWeDo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 21
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color,
+  }, "WHAT WE DO"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"].Link, {
+    href: "#whoWeServe",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "WHO WE SERVE"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"].Link, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 23
     },
     __self: this
-  }, "CONTACT US"))))));
+  }, "CONTACT US"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.hide,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row justify-content-center py-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.callMain),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "YOUR NEW ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), " WEB DEVELOPERS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row  justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "We\u2019re a team of web developers passionate about building stable, maintainable", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), "software for tech startups and enterprise customers.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row  justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.btn,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Get a quote"))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Slider); //     ABOUT US
-// PORTFOLIO
-// WHAT WE DO
-// WHO WE SERVE
-// CONTACT US
-
-react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-  id: "main-menu",
-  class: "main-menu currently-page",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 33
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  class: "menu-header-menu-container",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-  id: "menu-header-menu",
-  class: "menu",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-  id: "menu-item-221",
-  class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-221",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://labs.chiedo.com/page/about/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, "About Us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-  id: "menu-item-1852",
-  class: "menu-item menu-item-type-custom menu-item-object-custom menu-item-1852",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "/case-studies",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35
-  },
-  __self: undefined
-}, "Portfolio")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-  id: "menu-item-1722",
-  class: "menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1722",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 36
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://labs.chiedo.com/#what-we-do",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 36
-  },
-  __self: undefined
-}, "What We Do")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-  id: "menu-item-1721",
-  class: "menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1721",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 37
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://labs.chiedo.com#who-we-serve",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 37
-  },
-  __self: undefined
-}, "Who We Serve")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-  id: "menu-item-16",
-  class: "menu-item menu-item-type-post_type menu-item-object-page menu-item-16",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 38
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://labs.chiedo.com/page/contact/",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 38
-  },
-  __self: undefined
-}, "Contact Us")))), "    ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  class: "clear",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 39
-  },
-  __self: undefined
-}));
+/* harmony default export */ __webpack_exports__["default"] = (Slider); // </div>
+// <div className={ClassNames("container", css.S)}>
+// <div className="row pt-2 pr-3 justify-content-end">
+//  <img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/mob-trig.png" alt="Nav Bar"/>
+//  </div>
+// </div>
+// </div>
 
 /***/ }),
 
@@ -478,7 +431,16 @@ react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
 
 module.exports = {
 	"C": "_3J2br7hdjjZMJ_meyleae5",
-	"color": "_1EwllQzwHEFyyeT7_FA3hA"
+	"gay": "_3mqH_6T7GDsRf-TLW2Ic2e",
+	"S": "ClR6hDpVOg2LJPsNl84cT",
+	"P": "_1x9Ngh4ezy0U7jqu22ub0N",
+	"callMain": "_2iiUFBAus525H1-XWxpv2a",
+	"btn": "ZSIqJ0WXgyg6YDG0pWQXx",
+	"callBody": "_2Mz1oJ1InHktMg4S9RkplG",
+	"hide": "_3qqCxxdLd3zoAqyaGe0vdh",
+	"ourTeam": "jjyj15hGG-EIndw1N-oHk",
+	"team": "qGr1MaCL8uoR9PL2xhHCw",
+	"buildAndMaintain": "_2gKzSl3sslxH282jQvpK_-"
 };
 
 /***/ }),
@@ -663,97 +625,326 @@ var HomePage = function HomePage() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row pt-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color),
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.background),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "Column"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "Column")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row pt-5",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.s),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "whatWeDo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "Column"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.txtcolor,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
-  }, "Column")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row pt-5",
+  }, "WHAT"), " WE DO")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "Column"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
+  }, "We build and maintain:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }, "Column")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "row pt-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
+  }, "Web Front-ends with HTML, CSS, and a library called React."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }, "Column"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "col",
+  }, "Web Back-ends using NodeJS, Ruby on Rails, PHP, MySQL, AWS, and Heroku."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 27
     },
     __self: this
-  }, "Column"))));
+  }, "Custom Websites from the ground up as opposed to using pre-existing templates."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.btn,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row pt-5 justify-content-center", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "OUR FOUNDING WEB DEVELOPERS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.background),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col ml-3", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.s),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    id: "whoWeServe",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.txtcolor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "WHO"), " WE SERVE"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.serveColor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "Enterprise customers"), " hire us to build and maintain the web apps critical to their operations.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.serveColor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "Tech startups"), " partner with us to build and maintain the web front-ends and back-ends at the core of their business.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.btn,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col-lg-9", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.grey),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 m-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://picsum.photos/400/400",
+    alt: "This is a profile picture",
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.profilePicture,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-6 m-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, "Start-up Culture, Corporate-Grade Service."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.btn,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("col-lg-3", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.light),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row p-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.txtcolor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "FEATURED"), " Post")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row m-5", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.g),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.smaller,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "How to Upgrade PHP in a MAMP Environment")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()("row p-5", _style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.white),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, "LINKS")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (HomePage); // <a href="/" className="cd-btn">Get a Quote</a>
@@ -776,7 +967,19 @@ var HomePage = function HomePage() {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"Quote": "_2qENJ6cC0KaLubofBLnp9k"
+	"Quote": "_2qENJ6cC0KaLubofBLnp9k",
+	"color": "_1yLrqTVToOWMZMk7szLdbS",
+	"background": "_3aCTiI7PNeGrE3nRVJ4pm9",
+	"s": "_2UwOXF3B47sA5-zoQpYBBp",
+	"txtcolor": "_23EBy2rMCYDjZzXqXmvkQu",
+	"btn": "_8DVUyf779fZQvU-sby_eU",
+	"serveColor": "_3NDInCUcrgGppIU1JZelPz",
+	"grey": "_1oXw101geW-SbgKwtCVhxI",
+	"profilePicture": "_3MV9nGUs2BPPiDnNzxmx1r",
+	"light": "_3q28cQ8IOPn3Qm8u_Lkngf",
+	"g": "_5CHjgmzEWjl_ZOfzhknVK",
+	"white": "PsIb7epaOVWIR4PcLY_mn",
+	"smaller": "_9CV3PmOGZrWxt0nVjxUf7"
 };
 
 /***/ }),
@@ -855,35 +1058,35 @@ var Section = function Section() {
       lineNumber: 15
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "Build and maintain:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Build and maintain:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "Web applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Web applications"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Web back-ends"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Web back-ends"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, "Web front-ends"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Web front-ends"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_style_scss__WEBPACK_IMPORTED_MODULE_3___default.a.color, "mr-lg-4 mb-lg-0"),
     __source: {
       fileName: _jsxFileName,
@@ -986,12 +1189,12 @@ var Footer = function Footer(_ref) {
       lineNumber: 21
     },
     __self: this
-  }, "Connect With Us"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Common_Components_SocialMedia_components_SocialMediaLinks__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "MORE LINKS Blog Join the Team Facebook Twitter CHIEDO LABS "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Common_Components_SocialMedia_components_SocialMediaLinks__WEBPACK_IMPORTED_MODULE_5__["default"], {
     className: _style_scss__WEBPACK_IMPORTED_MODULE_7___default.a.footerSocial,
     links: Base_constants_links__WEBPACK_IMPORTED_MODULE_6__["SOCIAL_LINKS"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 27
     },
     __self: this
   }))));
@@ -1049,8 +1252,8 @@ function Header() {
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://labs.chiedo.com",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -1273,6 +1476,17 @@ module.exports = require("prop-types");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-bootstrap":
+/*!**********************************!*\
+  !*** external "react-bootstrap" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap");
 
 /***/ })
 

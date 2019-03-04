@@ -13,11 +13,11 @@ const Section = () => (
     <h2 className={css.skinny}>Hire our team to:</h2>
     </div>
     <div className="row justify-content-center pt-3">
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Build and maintain:</span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Web applications</span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Web back-ends</span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Web front-ends</span>
-        <span className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Custom websites</span>
+        <p className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Build and maintain:</p>
+        <p className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Web applications</p>
+        <p className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Web back-ends</p>
+        <p className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Web front-ends</p>
+        <p className={ClassNames(css.color, "mr-lg-4 mb-lg-0")}>Custom websites</p>
     </div>
   </div>
 </div>

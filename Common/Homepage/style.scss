@@ -123,3 +123,69 @@ button.Quote {
 button.Quote:hover {
   background-color: #d44457;
 }
+
+.color {
+  background: #B92C2C;
+  color: #fff;
+}
+
+.background {
+  background: url('https://picsum.photos/400/400'); 
+  background-color: #fafafa;
+  color: #333;
+}
+
+.s {
+  background: #fafafa;
+}
+
+.txtcolor {
+  font-weight: 900;
+  color: #B92C2C;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: .8em;
+  box-shadow: 3px 3px rgba(125,125,125,0.2);
+  background-color: #B92C2C;
+
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.serveColor {
+  color: #B92C2C;
+}
+
+.grey {
+  color: white;
+  background: #333;
+}
+
+.profilePicture{
+  width: 435px;
+  height: 290px;
+}
+
+.light {
+background: #f2f2f2;
+}
+
+.g {
+  padding: 4rem;
+  background: #333;
+  color:white;
+}
+
+.white{
+  background: white;
+  color: Black;
+}
+
+ .smaller {
+  font-size: 24px;
+}

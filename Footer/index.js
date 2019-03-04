@@ -18,7 +18,10 @@ const Footer = ({ className }) => (
       <div className={css.connectRow}>
         <h3 className="font-weight-bold">
           <Link href="/">
-            <a>Connect With Us</a>
+            <a>MORE LINKS Blog
+Join the Team
+Facebook
+Twitter CHIEDO LABS </a>
           </Link>
         </h3>
         <SocialMediaLinks className={css.footerSocial} links={SOCIAL_LINKS} />
