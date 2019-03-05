@@ -1,4 +1,3 @@
-import Button from '../Common/Components/Button';
 import ClassNames from 'classnames';
 import css from './style.scss';
 import HomePage from '../Common/Homepage' 
@@ -6,10 +5,10 @@ import Header from '../Header'
 import Footer from '../Footer' 
 
 function Home() {
-  return  <div>
+  return  <div className={css.hideSpace}>
     <Header />
     <HomePage />
-    {/* <Footer /> */}
+    <Footer />
     </div>
 }
 

@@ -1,20 +1,35 @@
 @import '~baseSass/variables.scss';
 @import '~baseSass/mixins.scss';
 
-button.button {
-  @include antialiased();
+$pinkish: #d44b44;
+$blueish: #333;
 
+button.button {
+  border: none;
   display: inline-block;
   padding: 1.2em 1.4em;
-  margin-top: 0.8em;
   box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
   background-color: #b92c2c;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 1px;
   color: #fff;
   text-transform: uppercase;
-  -webkit-transition: background-color 0.2s;
-  -moz-transition: background-color 0.2s;
-  transition: background-color 0.2s;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    background: $pinkish;
+
+    &.grey {
+      background: grey;
+    }
+  }
 }
+
+// button.button        { border: none; padding: 1em 1.4em; cursor: pointer; background: $blueish;
+//   font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 500; color: white }
