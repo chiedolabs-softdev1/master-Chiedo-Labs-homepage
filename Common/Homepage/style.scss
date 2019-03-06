@@ -14,6 +14,12 @@ button.Quote {
   transition: background-color 0.2s;
 }
 
+.half {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
 .body {
   font-size: 18px;
   line-height: 200%;
@@ -24,12 +30,12 @@ button.Quote:hover {
 }
 
 .color {
-  background: #B92C2C;
+  background: #b92c2c;
   color: #fff;
 }
 
 .background {
-  background: url('https://picsum.photos/400/400'); 
+  background: url('https://picsum.photos/400/400');
   background-color: #f2f2f2;
   color: rgb(102, 101, 101);
 }
@@ -40,24 +46,11 @@ button.Quote:hover {
 
 .txtcolor {
   font-weight: 700;
-  color: #B92C2C;
-}
-
-.btn {
-  display: inline-block;
-  padding: 1.2em 1.4em;
-  margin-top: .8em;
-  box-shadow: 3px 3px rgba(125,125,125,0.2);
-  background-color: #B92C2C;
-
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #ffffff;
-  text-transform: uppercase;
+  color: #b92c2c;
 }
 
 .serveColor {
-  color: #B92C2C;
+  color: #b92c2c;
 }
 
 .grey {
@@ -65,30 +58,110 @@ button.Quote:hover {
   background: #333;
 }
 
-.profilePicture{
+.profilePicture {
   width: 435px;
   height: 290px;
 }
 
 .light {
-background: #f2f2f2;
+  background: #f2f2f2;
 }
 
 .g {
   padding: 4rem;
   background: #333;
-  color:white;
+  color: white;
 }
 
-.white{
+.white {
   background: white;
   color: Black;
 }
 
- .smaller {
+.smaller {
   font-size: 24px;
 }
 
 .featured {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  box-shadow: 3px 3px rgba(125, 125, 125, 0.2);
+  background-color: #b92c2c;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.btnGrey {
+  display: inline-block;
+  background-color: darkslategray;
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+  border: none;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.699);
+  }
+}
+
+.foundersBlock {
+  padding-top: 1em;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.founder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nameTag {
+  display: block;
+  position: relative;
+  bottom: 41px;
+  background-color: rgba(51, 51, 51, 0.8);
+  width: 100%;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.founderstitle {
+  letter-spacing: 0.5rem;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 1em;
+  max-width: 85vw;
+}
+
+.foundersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whiteTitle {
+  font-size: 2.5em;
+  font-weight: 100;
+  color: white;
   text-align: center;
 }

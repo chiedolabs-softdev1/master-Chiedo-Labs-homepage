@@ -3,20 +3,25 @@
 
 $red: #b92c2c;
 
+.white {
+  color: white;
+  font-weight: 70;
+}
+
+.div {
+  @media screen and (max-width: 768px) {
+    background: black;
+    border-bottom: 3px #b92c2c solid;
+  }
+}
+
 .navBar {
   background: #333;
   text-align: center;
-  color: #fff;
   border-bottom: 3px #b92c2c solid;
   -webkit-font-smoothing: antialiased;
-}
 
-@media screen and (max-width: 768px) {
-  .navBar {
-    cursor: pointer;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 300;
+  @media screen and (max-width: 768px) {
     border-bottom: none;
   }
 }
@@ -30,31 +35,13 @@ button.logo {
   }
 }
 
-.white {
+.aWhite {
   color: white;
 
   &:hover {
-    color: white;
+    color: rgb(172, 172, 172);
     text-decoration: none;
   }
-}
-
-.highLighter {
-  color: white;
-}
-
-.highLighter:hover {
-  background-color: $red;
-}
-
-.high {
-  border-bottom: 3px #b92c2c solid;
-}
-
-// unedited code
-
-.P {
-  color: red;
 }
 
 .mainTitle {
@@ -67,56 +54,18 @@ button.logo {
 }
 
 .mainText {
-  font-size: 1.2em;
+  font-size: 1.3em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   // display: block;
-}
-
-.btn {
-  display: inline-block;
-  padding: 1.2em 1.4em;
-  margin-top: .8em;
-  box-shadow: 3px 3px rgba(125,125,125,0.2);
-  background-color: #B92C2C;
-
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #ffffff;
-  text-transform: uppercase;
-
-
-}
-.callBody {
-  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  font-size: 23px;
   text-align: center;
 }
 
 .hide {
   background: rgb(112, 112, 112);
   color: white;
-@media screen and (max-width:1170px){
-  display:none;
-    }
+
+  @media screen and (max-width: 1170px) {
+    display: none;
   }
-
-
-    .ourTeam {
-      background-color:  #333;;
-      color: white;
-      // @include centeredContent;
-      min-height: 48vh;
-      .team {
-        display: flex;
-        flex-direction: column;
-      }
-      .buildAndMaintain {
-        font-size: 1.2em;
-        color: red;
-        font-weight: bold;
-      }
-      span {
-        padding: 0em .7em 0 .7em;
-      }
-    }
+}

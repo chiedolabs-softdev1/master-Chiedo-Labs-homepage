@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import ClassNames from 'classnames';
 import css from './style.scss';
 import NavBar from '../Components/NavBar'
@@ -29,4 +28,4 @@ const MainMenu = () => (
   export default MainMenu;
 
 
-  // <div className={ClassNames(css.color, "mt-3 mt-lg-0")}></div>
+  
