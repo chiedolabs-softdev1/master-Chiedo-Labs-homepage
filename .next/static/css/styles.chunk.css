@@ -299,23 +299,49 @@ button._1HG70_ZZ3gStjBJOWLbh69 {
 
 ._22AUZjHOqU5OvhJUdG0SN6 {
   text-align: center;
-  background-color: grey; }
+  background-color: #e2e2e2;
+  color: black; }
   ._22AUZjHOqU5OvhJUdG0SN6 ul {
     padding-top: 3em;
-    list-style-type: none; }
+    list-style-type: none;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
 
 ._3uC1_GFSrlQxRDNeEhDAm {
-  color: white;
   padding: 2rem;
   align-items: flex-start; }
 
 ._1qEblZdoI9D-viiH2_ygfl {
-  font-weight: 2.5rem;
-  color: #b92c2c; }
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #b92c2c;
+  margin-bottom: 50px; }
 
 ._2sqdF8OI95gCtrY1_7dLOT {
   background-color: #333;
   color: white; }
+
+._1SR7Y4xBQ5ViKK_c1GtHlr {
+  font-size: 2.5em;
+  color: #fff;
+  font-weight: 300;
+  text-transform: initial;
+  -webkit-font-smoothing: antialiased; }
+
+.ypKt6bnnV4tj5mY0scEBA {
+  width: 100%;
+  color: #ccc;
+  background: #111;
+  padding: 10px;
+  text-align: center; }
+
+.EJSrMrd3SL1KJbH-2kTTi {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.507); }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
