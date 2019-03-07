@@ -46,6 +46,9 @@ button._2qENJ6cC0KaLubofBLnp9k:hover {
 ._3NDInCUcrgGppIU1JZelPz {
   color: #b92c2c; }
 
+._2BOZonICbPxEVI2oDjlZBj {
+  font-weight: 100; }
+
 ._1oXw101geW-SbgKwtCVhxI {
   color: white;
   background: #333; }
@@ -67,7 +70,8 @@ button._2qENJ6cC0KaLubofBLnp9k:hover {
   color: Black; }
 
 ._9CV3PmOGZrWxt0nVjxUf7 {
-  font-size: 24px; }
+  font-size: 24px;
+  font-weight: 100; }
 
 ._3SalghDt7hl3Sy8RW5upsi {
   text-align: center; }
@@ -305,8 +309,6 @@ button._1HG70_ZZ3gStjBJOWLbh69 {
     padding-top: 3em;
     list-style-type: none;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%; }
 
 ._3uC1_GFSrlQxRDNeEhDAm {
@@ -331,17 +333,28 @@ button._1HG70_ZZ3gStjBJOWLbh69 {
   -webkit-font-smoothing: antialiased; }
 
 .ypKt6bnnV4tj5mY0scEBA {
-  width: 100%;
   color: #ccc;
   background: #111;
-  padding: 10px;
-  text-align: center; }
+  text-align: center;
+  font-weight: 100; }
+  @media screen and (max-width: 768px) {
+    .ypKt6bnnV4tj5mY0scEBA {
+      display: none; } }
 
 .EJSrMrd3SL1KJbH-2kTTi {
   font-weight: 100;
   letter-spacing: 0.05em;
   font-family: "Open Sans", sans-serif;
   color: rgba(255, 255, 255, 0.507); }
+
+._2OXhu9Adffo9hKcR8ts8gp {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-family: "Open Sans", sans-serif; }
+
+._3TkIyHLJGLuqgTBBO0uplD {
+  color: #b92c2c; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

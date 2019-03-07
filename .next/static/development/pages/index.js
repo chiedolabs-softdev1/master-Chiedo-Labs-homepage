@@ -139,13 +139,21 @@ var Foot = function Foot() {
       lineNumber: 16
     },
     __self: this
-  }, "Twitter"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Twitter"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("pt-3", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.font),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "Chiedo Labs"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Chie", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.red,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "do"), " Labs"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col-lg-9", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.background),
     __source: {
       fileName: _jsxFileName,
@@ -180,44 +188,52 @@ var Foot = function Foot() {
       lineNumber: 26
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.skinny,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row p-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.skinny,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
   }, "Meet Our Founder"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.bio,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }, "If you need new web developers or want to talk about your tech startup, let's connect on LinkedIn and meet for lunch or coffee!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.btn,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
-  }, "Connect on LinkedIn"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Connect on LinkedIn")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("row justify-content-center", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.copyRight),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "pt-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }, "Copyright 2019 \xA9 Chiedo Labs, LLC.")))));
@@ -970,7 +986,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.serveColor,
+    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.startUp,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85

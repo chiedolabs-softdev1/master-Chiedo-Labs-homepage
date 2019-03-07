@@ -14,7 +14,7 @@ const Foot = () => {
                 <li>Join the Team</li>
                 <li>Facebook</li>
                 <li>Twitter</li>
-                <li>Chiedo Labs</li>
+                <p className={ClassNames("pt-3", css.font)}>Chie<span className={css.red}>do</span> Labs</p>
             </ul>
             </div>
             
@@ -24,6 +24,7 @@ const Foot = () => {
                 <img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/chiedo-sitting-small.png"/>
             </div>
             <div className={ClassNames("col-lg-7", css.ourFounder)}>
+            <div className="row p-5">
             <h3 className={css.skinny}>Meet Our Founder</h3><br/>
                 <p className={css.bio}>If you need new web developers or want to talk about 
                     your tech startup, let's connect on LinkedIn and meet 
@@ -33,8 +34,9 @@ const Foot = () => {
            
             </div>  
             </div>  
+            </div>
             <div className={ClassNames("row justify-content-center", css.copyRight)}>
-            <p>Copyright 2019 © Chiedo Labs, LLC.</p>
+            <p className="pt-3">Copyright 2019 © Chiedo Labs, LLC.</p>
             </div>
             </div> 
        </div>

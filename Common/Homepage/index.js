@@ -82,7 +82,7 @@ const HomePage = () => (
 
     <div className={ClassNames("row")}>
     <div className={ClassNames("col")}>
-    <p className={css.body}><span className={css.serveColor}>Tech startups</span> partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p></div>
+    <p className={css.body}><span className={css.startUp}>Tech startups</span> partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p></div>
 </div>
 
 <div className={ClassNames("row")}>

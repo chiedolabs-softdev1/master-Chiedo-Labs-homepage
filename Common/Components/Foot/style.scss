@@ -10,8 +10,7 @@
   ul {
     padding-top: 3em;
     list-style-type: none;
-        -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;    -ms-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
 }
@@ -35,7 +34,6 @@
 
 .skinny {
   font-size: 2.5em;
-  // margin-bottom: 20px;
   color: #fff;
   font-weight: 300;
   text-transform: initial;
@@ -43,11 +41,14 @@
 }
 
 .copyRight {
-  width: 100%;
   color: #ccc;
   background: #111;
-  padding: 10px;
   text-align: center;
+  font-weight: 100;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .bio {
@@ -55,4 +56,15 @@
   letter-spacing: 0.05em;
   font-family: "Open Sans", sans-serif;
   color: rgba(255, 255, 255, 0.507);
+}
+
+.font {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.red {
+  color: #b92c2c;
 }
