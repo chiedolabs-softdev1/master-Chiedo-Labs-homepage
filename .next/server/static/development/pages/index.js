@@ -638,7 +638,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col"),
+    className: "col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -673,7 +673,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col"),
+    className: "col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -694,7 +694,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col"),
+    className: "col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
@@ -721,7 +721,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col"),
+    className: "col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
@@ -748,7 +748,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col"),
+    className: "col",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35

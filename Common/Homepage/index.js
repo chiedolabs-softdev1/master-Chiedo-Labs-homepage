@@ -11,40 +11,40 @@ const HomePage = () => (
     <div className={ClassNames("col", css.half)}></div>
     <div className={ClassNames("col", css.s)}>
     <div className={ClassNames("row m-5")}>
-    <div className={ClassNames("col")}>
+    <div className="col">
 
     <div className={ClassNames("pb-4")}>
     <h2 id='what-WeDo'><span className={css.txtcolor}>WHAT</span> WE DO</h2>
     </div>
     <div className={ClassNames("row")}>
-    <div className={ClassNames("col")}>
+    <div className="col">
    <p className={css.body}> We build and maintain:</p>
     </div>
     </div>
     <div className={ClassNames("row")}>
-    <div className={ClassNames("col")}>
-<p className={css.body}><u>Web Front-ends</u> with HTML, CSS, and a library called React.</p>
-</div>
-</div>
-<div className={ClassNames("row")}>
-<div className={ClassNames("col")}>
-<p className={css.body}><u>Web Back-ends</u> using NodeJS, Ruby on Rails, PHP, MySQL, AWS, and Heroku.</p>
-</div>
-</div>
-<div className={ClassNames("row")}>
-<div className={ClassNames("col")}>
-<p className={css.body}><u>Custom Websites</u> from the ground up as opposed to using pre-existing templates.</p></div></div>
-<div className={ClassNames("row")}>
-<div className="col">
- <Button>Get a quote</Button>
-  </div>
-  </div>
+    <div className="col">
+    <p className={css.body}><u>Web Front-ends</u> with HTML, CSS, and a library called React.</p>
+    </div>
+    </div>
+    <div className={ClassNames("row")}>
+    <div className="col">
+    <p className={css.body}><u>Web Back-ends</u> using NodeJS, Ruby on Rails, PHP, MySQL, AWS, and Heroku.</p>
+    </div>
+    </div>
+    <div className={ClassNames("row")}>
+    <div className="col">
+    <p className={css.body}><u>Custom Websites</u> from the ground up as opposed to using pre-existing templates.</p></div></div>
+    <div className={ClassNames("row")}>
+    <div className="col">
+    <Button>Get a quote</Button>
+    </div>
+    </div>
 
 
-  </div>
-  </div>
-  </div>
-  </div>
+    </div>
+    </div>
+    </div>
+</div>
 
 {/* Founding Developers */}
  
@@ -58,11 +58,11 @@ const HomePage = () => (
             <div className="col-lg-3"><div className={css.founder}><img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-ricardo-fearing.jpg" width="268" height="268"/><div className={css.nameTag}><span>Ricardo</span><br/>ReactJS / Front-End Master</div></div></div>
             <div className="col-lg-3"><div className={css.founder}><img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-eric-duvon.jpg" width="268" height="268"/><div className={css.nameTag}><span>Eric</span><br/>Ruby on Rails / Back-end Pro</div></div></div>
             <div className="col-lg-3"><div className={css.founder}><img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/team-don-townsend.jpg" width="268" height="268"/><div className={css.nameTag}><span>Don</span><br/>NodeJS / Full Stack Expert</div></div></div>
-            </div>
-            </div>
-        <button className={ClassNames(css.btn, css.btnGrey)}>Get a quote</button>
+          </div>
+          </div>
+            <button className={ClassNames(css.btn, css.btnGrey)}>Get a quote</button>
 
-      </div>
+   </div>
   </div>
 
 {/* Who we serve */}
@@ -121,8 +121,8 @@ const HomePage = () => (
   <h2><span className={css.txtcolor}>FEATURED</span> Post</h2>
   </div>
   <div className={ClassNames("row mx-4", css.g)}>
-    <h4 className={css.smaller}>How to Upgrade PHP in a MAMP Environment</h4>
-    </div>
+  <h4 className={css.smaller}>How to Upgrade PHP in a MAMP Environment</h4>
+  </div>
   </div>
 
   </div>
