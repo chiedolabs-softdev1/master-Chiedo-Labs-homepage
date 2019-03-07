@@ -216,7 +216,6 @@ var Foot = function Foot() {
     },
     __self: this
   }, "If you need new web developers or want to talk about your tech startup, let's connect on LinkedIn and meet for lunch or coffee!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.btn,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -986,7 +985,6 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.startUp,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
@@ -1057,117 +1055,108 @@ var HomePage = function HomePage() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-6 m-5",
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col-lg-6 m-5", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.startUp),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 111
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("row", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.big),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 112
     },
     __self: this
-  }, "Start-up Culture, Corporate-Grade Service."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 113
     },
     __self: this
-  }, "We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Start-up Culture, Corporate-Grade Service.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row pt-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 115
     },
     __self: this
-  }, "Get a quote")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col-lg-3", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.light),
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }, "We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row pt-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Components_Button__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 119
+    },
+    __self: this
+  }, "Get a quote"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col-lg-3", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.light),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row justify-content-center p-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.txtcolor,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 127
     },
     __self: this
   }, "FEATURED"), " Post")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("row mx-4", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.g),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 129
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     className: _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.smaller,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 130
     },
     __self: this
   }, "How to Upgrade PHP in a MAMP Environment")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 136
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("row", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.half),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 137
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-2 mr-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://picsum.photos/256/200",
-    alt: "This is a profile picture",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 ml-0 mr-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://picsum.photos/256/200",
-    alt: "This is a profile picture",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 ml-0 mr-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 138
@@ -1182,7 +1171,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 mr-5",
+    className: "col-lg-2 ml-0 mr-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 141
@@ -1197,7 +1186,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 mr-4",
+    className: "col-lg-2 ml-0 mr-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 144
@@ -1211,15 +1200,23 @@ var HomePage = function HomePage() {
       lineNumber: 145
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("row pt-3", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.half),
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 mr-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 147
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 mr-5",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://picsum.photos/256/200",
+    alt: "This is a profile picture",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 148
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 mr-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 150
@@ -1233,23 +1230,15 @@ var HomePage = function HomePage() {
       lineNumber: 151
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 ml-0 mr-5",
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("row pt-3", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.half),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 155
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://picsum.photos/256/200",
-    alt: "This is a profile picture",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 154
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 ml-0 mr-5",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 mr-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 156
@@ -1264,7 +1253,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 mr-5",
+    className: "col-lg-2 ml-0 mr-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 159
@@ -1279,7 +1268,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 mr-4",
+    className: "col-lg-2 ml-0 mr-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 162
@@ -1291,6 +1280,36 @@ var HomePage = function HomePage() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 163
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 mr-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://picsum.photos/256/200",
+    alt: "This is a profile picture",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 mr-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 168
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://picsum.photos/256/200",
+    alt: "This is a profile picture",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 169
     },
     __self: this
   })))));

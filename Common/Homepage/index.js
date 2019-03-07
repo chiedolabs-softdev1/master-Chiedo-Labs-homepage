@@ -82,7 +82,7 @@ const HomePage = () => (
 
     <div className={ClassNames("row")}>
     <div className={ClassNames("col")}>
-    <p className={css.body}><span className={css.startUp}>Tech startups</span> partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p></div>
+    <p className={css.body}><span>Tech startups</span> partner with us to build and maintain the web front-ends and back-ends at the core of their business.</p></div>
 </div>
 
 <div className={ClassNames("row")}>
@@ -108,10 +108,16 @@ const HomePage = () => (
   <div className="col-lg-4 m-5">
   <img src="https://picsum.photos/400/400" alt="This is a profile picture" className={css.profilePicture} />
   </div>
-  <div className="col-lg-6 m-5">
-  <h2>Start-up Culture, Corporate-Grade Service.</h2>
+  <div className={ClassNames("col-lg-6 m-5", css.startUp)}>
+  <div className={ClassNames("row", css.big)}>
+  <p>Start-up Culture, Corporate-Grade Service.</p>
+  </div>
+  <div className="row pt-1">
 <p>We create an atmosphere that fosters creativity and professionalism. In this way, we allow our team to hone your vision with our digital strategy and build realities that will take your business to the next level.</p>
+</div>
+<div className="row pt-2">
 <Button>Get a quote</Button>
+</div>
   </div>
 
   </div>

@@ -39,6 +39,10 @@ button._2qENJ6cC0KaLubofBLnp9k:hover {
 ._2UwOXF3B47sA5-zoQpYBBp {
   background: #fafafa; }
 
+._1fYPUcuUvbneonCLTpLP4V {
+  font-weight: 300;
+  font-size: 2.5rem; }
+
 ._23EBy2rMCYDjZzXqXmvkQu {
   font-weight: 700;
   color: #b92c2c; }
@@ -47,7 +51,7 @@ button._2qENJ6cC0KaLubofBLnp9k:hover {
   color: #b92c2c; }
 
 ._2BOZonICbPxEVI2oDjlZBj {
-  font-weight: 100; }
+  -webkit-font-smoothing: antialiased; }
 
 ._1oXw101geW-SbgKwtCVhxI {
   color: white;
@@ -297,9 +301,6 @@ button._1HG70_ZZ3gStjBJOWLbh69 {
 ._1ZcNE1HuKsuuD-UJ9YRn1 img {
   width: 225px;
   height: 60.3px; }
-
-._177Tbh6rrBZ6oPH7rrl9w1 {
-  width: 200px; }
 
 ._22AUZjHOqU5OvhJUdG0SN6 {
   text-align: center;

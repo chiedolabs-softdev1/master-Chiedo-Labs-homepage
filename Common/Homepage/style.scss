@@ -44,6 +44,11 @@ button.Quote:hover {
   background: #fafafa;
 }
 
+.big {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
 .txtcolor {
   font-weight: 700;
   color: #b92c2c;
@@ -54,7 +59,7 @@ button.Quote:hover {
 }
 
 .startUp {
-  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
 }
 
 .grey {

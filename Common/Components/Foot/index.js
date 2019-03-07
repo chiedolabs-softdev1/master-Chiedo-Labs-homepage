@@ -30,7 +30,7 @@ const Foot = () => {
                     your tech startup, let's connect on LinkedIn and meet 
                     for lunch or coffee!
                 </p>
-            <Button className={css.btn}>Connect on LinkedIn</Button>
+            <Button>Connect on LinkedIn</Button>
            
             </div>  
             </div>  
