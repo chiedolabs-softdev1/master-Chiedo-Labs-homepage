@@ -4,7 +4,7 @@ import Button from '../Button'
 import { Navbar, Nav, } from 'react-bootstrap'
 const NavBar = () => (
  <>
-        <Navbar className={css.navBar} expand="lg">
+        <Navbar className={css.navBar} expand="md">
        <div />
             <Navbar.Toggle className={css.logo}> < img src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/mob-trig.png" alt="Nav Bar"/></Navbar.Toggle>             
             <Navbar.Collapse>

@@ -12,6 +12,8 @@ $red: #b92c2c;
   @media screen and (max-width: 768px) {
     background: black;
     border-bottom: 3px #b92c2c solid;
+    overflow: hidden;
+    margin: 0;
   }
 }
 

@@ -249,7 +249,9 @@ button._3aBJEmPf2LWj6mc5V62Bmu {
 @media screen and (max-width: 768px) {
   ._3zRvZt4bKHQA58KN6ODMEp {
     background: black;
-    border-bottom: 3px #b92c2c solid; } }
+    border-bottom: 3px #b92c2c solid;
+    overflow: hidden;
+    margin: 0; } }
 
 ._2XrznVIor3lYhh-g6u05Q1 {
   background: #333;

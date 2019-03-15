@@ -14,7 +14,7 @@ const HomePage = () => (
     <div className="col">
 
     <div className={ClassNames("pb-4")}>
-    <h2 id='what-WeDo'><span className={css.txtcolor}>WHAT</span> WE DO</h2>
+    <h2 id='whatWeDo'><span className={css.txtcolor}>WHAT</span> WE DO</h2>
     </div>
     <div className={ClassNames("row")}>
     <div className="col">
@@ -108,7 +108,7 @@ const HomePage = () => (
   <div className="col-lg-4 m-5">
   <img src="https://picsum.photos/400/400" alt="This is a profile picture" className={css.profilePicture} />
   </div>
-  <div className={ClassNames("col-lg-6 m-5", css.startUp)}>
+  <div className={ClassNames("col-lg-5 m-5", css.startUp)}>
   <div className={ClassNames("row", css.big)}>
   <p>Start-up Culture, Corporate-Grade Service.</p>
   </div>

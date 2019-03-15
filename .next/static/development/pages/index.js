@@ -266,7 +266,7 @@ var _jsxFileName = "/Users/softdev1/projects/Chiedo-Labs-homepage/Common/Compone
 var NavBar = function NavBar() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_3__["Navbar"], {
     className: _style_scss__WEBPACK_IMPORTED_MODULE_1___default.a.navBar,
-    expand: "lg",
+    expand: "md",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -539,7 +539,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    id: "what-WeDo",
+    id: "whatWeDo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -1055,7 +1055,7 @@ var HomePage = function HomePage() {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col-lg-6 m-5", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.startUp),
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("col-lg-5 m-5", _style_scss__WEBPACK_IMPORTED_MODULE_2___default.a.startUp),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 111
