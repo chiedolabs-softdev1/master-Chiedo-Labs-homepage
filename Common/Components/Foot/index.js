@@ -4,10 +4,10 @@ import Button from '../Button'
 
 const Foot = () => {
     return (
-        <div className={css.background}>
+        <div className={ClassNames(css.background, css.mainThing)}>
         <div className="row">
 
-        <div className={ClassNames("col-lg-3", css.moreLinks)}>
+        <div className={ClassNames("col-lg-3", css.moreLinks, css.item1)}>
             <ul>
             <span className={css.redText}>MORE LINKS</span>
                 <li>Blog</li>
@@ -16,10 +16,11 @@ const Foot = () => {
                 <li>Twitter</li>
                 <p className={ClassNames("pt-3", css.font)}>Chie<span className={css.red}>do</span> Labs</p>
             </ul>
+            <p className={css.smallCopyRight}>Copyright 2019 © Chiedo Labs, LLC.</p>
             </div>
             
             <div className={ClassNames("col-lg-9", css.background)}>
-            <div className="row">
+            <div className={ClassNames("row", css.item2)}>
          <div className="col-lg-5 px-4 py-5"> 
                 <img  src="https://labs.chiedo.com/wp-content/themes/chiedolabs/img/wp-landing-page/chiedo-sitting-small.png"/>
             </div>

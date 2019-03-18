@@ -175,3 +175,62 @@ button.Quote:hover {
   color: white;
   text-align: center;
 }
+
+// .backImage {
+//   // width: 150px;
+//   // height: 150px;
+//   background-size: 110% 120%;
+//   height: 100%;
+//   // background: red;
+//   background-image: url('https://labs.chiedo.com/case-studies/bartrack/bar-track/');
+// }
+
+.backText {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.backText:hover {
+  visibility: visible;
+  opacity: 1;
+  background: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(243, 37, 88, 0.664);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  padding-top: 3em;
+
+  /* transition effect. not necessary */
+  // transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.smallText {
+  font-size: 11px;
+}

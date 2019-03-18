@@ -133,45 +133,41 @@ const HomePage = () => (
 
   </div>
 
-  <div className="row"> 
-  <div className={ClassNames("row", css.half)}>
-  <div className="col-lg-2 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
-  </div>
-  <div className="col-lg-2 ml-0 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
-  </div>
-  <div className="col-lg-2 ml-0 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
-  </div>
-  <div className="col-lg-2 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
-  </div>
-  <div className="col-lg-2 mr-4">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
+  {/* <div className="row">  */}
+  {/* <div className={ClassNames("row", css.half)}>
+  <div className={ClassNames("col-lg-2 mr-5", css.hover)}> */}
+  <div className="row p-5">
+  <div className="p-5">
+  <div className={css.img__wrap}>
+  <img className={css.img__img} src="https://labs.chiedo.com/case-studies/bartrack/bar-track/" alt="This is a profile picture" width="257" height="184" />
+  <p className={css.img__description}>BarTrack<br /><span className={css.smallText}>Website</span><br /><span className={css.smallText}>WordPress</span></p>
+ 
+</div>
   </div>
   </div>
 
+  {/* </div> */}
+{/* 
   <div className={ClassNames("row pt-3", css.half)}>
   <div className="col-lg-2 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
+  <img src="https://labs.chiedo.com/case-studies/bartrack/bar-track/" alt="This is a profile picture" />
   </div>
   <div className="col-lg-2 ml-0 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
+  <img src="https://labs.chiedo.com/case-studies/bartrack/bar-track/" alt="This is a profile picture" />
   </div>
   <div className="col-lg-2 ml-0 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
+  <img src="https://labs.chiedo.com/case-studies/bartrack/bar-track/" alt="This is a profile picture" />
   </div>
   <div className="col-lg-2 mr-5">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
+  <img src="https://labs.chiedo.com/case-studies/bartrack/bar-track/" alt="This is a profile picture" />
   </div>
   <div className="col-lg-2 mr-4">
-  <img src="https://picsum.photos/256/200" alt="This is a profile picture" />
+  <img src="https://labs.chiedo.com/case-studies/bartrack/bar-track/" alt="This is a profile picture" />
   </div>
   </div>
   
   
-  </div>
+  </div> */}
 
 </ >
 );
